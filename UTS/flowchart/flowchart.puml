@@ -1,0 +1,23 @@
+@startuml
+
+start
+:Mulai;
+:Input Data Pelanggan Baru;
+if (Pelanggan sudah terdaftar?) then (Ya)
+    :Lihat Riwayat Pelanggan;
+    :Tambahkan Data Transaksi Baru;
+else (Tidak)
+    :Daftarkan Pelanggan Baru;
+endif
+:Catat Transaksi Pembelian;
+:Masukkan Informasi Garansi;
+:Proses Layanan Pengaduan;
+if (Pengaduan selesai?) then (Ya)
+    :Perbarui Status Layanan;
+else (Tidak)
+    :Teruskan ke Tim Teknisi;
+endif
+:Generate Laporan;
+stop
+
+@enduml

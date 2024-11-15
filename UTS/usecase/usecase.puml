@@ -1,0 +1,23 @@
+@startuml
+actor "Pelanggan" as customer
+actor "Admin" as admin
+
+usecase "Input Data Pelanggan Baru" as UC1
+usecase "Kelola Profil Pelanggan" as UC2
+usecase "Catat Transaksi Pembelian" as UC3
+usecase "Input Informasi Garansi" as UC4
+usecase "Ajukan Layanan Pengaduan" as UC5
+usecase "Lihat Riwayat Pelanggan" as UC6
+usecase "Generate Laporan Penjualan" as UC7
+usecase "Update Status Layanan" as UC8
+
+customer --> UC5
+customer --> UC6
+
+admin --> UC1
+admin --> UC2
+admin --> UC3
+admin --> UC4
+admin --> UC7
+admin --> UC8
+@enduml
