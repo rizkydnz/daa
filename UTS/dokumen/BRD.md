@@ -1,9 +1,8 @@
 # Business Requirements Document (BRD)  
 ## Sistem Data Pelanggan Toko Handphone  
 
-**Project Start Date:** [Tanggal Dimulai]  
-**Client:** [Nama Toko Handphone]  
-**Prepared by:** [Nama Penyusun]  
+**Project Start Date:** 15 November 2024 
+**Prepared by:** Rizky Dwi Nugroho 
 
 ---
 
