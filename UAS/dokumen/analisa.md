@@ -62,14 +62,14 @@ Analisis GAP akan mengidentifikasi kesenjangan antara kondisi saat ini (individu
 #### Entitas
 
 - **Pengguna** (ID_Pengguna, Nama, Email, Password, Kontak)
-- **Modul Cyber Security** (ID_Modul, Judul, Tanggal_Upload, ID_Pengguna, Kategori, File_Materi)
-- **Komentar** (ID_Komentar, ID_Modul, ID_Pengguna, Komentar, Tanggal_Komentar)
+- **Materi Cyber Security** (ID_Materi, Judul, Tanggal_Upload, ID_Pengguna, Kategori, File_Materi)
+- **Komentar** (ID_Komentar, ID_Materi, ID_Pengguna, Komentar, Tanggal_Komentar)
 - **Motivasi** (ID_Motivasi, Motivasi, Tanggal)
 
 #### Hubungan antar entitas:
 
 - Pengguna dapat mengakses berbagai modul cyber security.
-- Setiap modul dapat memiliki komentar dari pengguna.
+- Setiap materi dapat memiliki komentar dari pengguna.
 - Setiap materi diunggah oleh satu pengguna.
 
 ### 6.2 Flowchart System
@@ -77,7 +77,7 @@ Analisis GAP akan mengidentifikasi kesenjangan antara kondisi saat ini (individu
 #### Flowchart utama mencakup:
 
 1. **Proses Pendaftaran Pengguna** → Input Data → Verifikasi Akun → Masuk Database.
-2. **Proses Pembelajaran** → Pemilihan Modul Cyber Security → Akses Konten → Diskusi & Komentar → Penyelesaian Modul.
+2. **Proses Pembelajaran** → Pemilihan Materi Cyber Security → Akses Konten → Diskusi & Komentar → Penyelesaian Modul.
 3. **Proses Evaluasi** → Pengguna Mengerjakan Kuis atau Simulasi → Sistem Memberikan Umpan Balik → Saran Pengembangan Lebih Lanjut.
 4. **Proses Inspirasi & Motivasi** → Penjadwalan Motivasi Harian → Notifikasi ke Pengguna → Akses Inspirasi.
 
