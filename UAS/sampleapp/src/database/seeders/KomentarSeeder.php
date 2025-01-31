@@ -18,7 +18,7 @@ class KomentarSeeder extends Seeder
     {
         $pengguna = Pengguna::first();
         $materi = Materi::first();
-
+        
         $komentars = [
             [
                 'komentar' => 'Materi yang diberikan ini cukup bagus dan menarik',
@@ -27,7 +27,7 @@ class KomentarSeeder extends Seeder
                 'materi_id' => $materi->id,
             ],
         ];
-
+        
         foreach ($komentars as $komentar) {
             Materi::Create($komentar);
         }

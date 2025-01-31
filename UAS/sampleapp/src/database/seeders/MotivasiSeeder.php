@@ -17,7 +17,7 @@ class MotivasiSeeder extends Seeder
         $motivasis = [
             [
                 'motivasi' => 'Motivasi saya ingin belajar cyber security karena saya tertarik pada dunia cyber',
-                'tanggal' => 2021-06-18,
+                'tanggal' => '2021-06-18',
             ]
         ];
         

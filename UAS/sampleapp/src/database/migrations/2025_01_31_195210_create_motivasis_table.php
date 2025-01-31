@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('motivasis', function (Blueprint $table) {
             $table->id();
             $table->string('motivasi');
-            $table->date('tanggal');
+            $table->string('tanggal');
             $table->timestamps();
         });
     }
