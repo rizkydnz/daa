@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'name' => 'Pengguna',
-                'email' => 'pengguna@pelanggan.com',
+                'email' => 'pengguna@pengguna.com',
                 'password' => bcrypt('password'),
             ],
         ]
