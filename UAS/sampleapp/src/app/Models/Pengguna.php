@@ -13,6 +13,5 @@ class Pengguna extends Model
         'nama',
         'email',
         'password',
-        'kontak',
     ];
 }

@@ -15,4 +15,9 @@ class Materi extends Model
         'kategori',
         'file_materi',
     ];
+
+    public function pengguna()
+    {
+        return $this->belongsTo(Pengguna::class);
+    }
 }

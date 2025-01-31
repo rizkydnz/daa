@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('materis', function (Blueprint $table) {
             $table->id();
+            $table->string('judul');
+            $table->string('tanggal_upload');
+            $table->string('kategori');
+            $table->string('file_materi');
+            $table->foreignId('pengguna_id')->constrained('penggunas')->onDelete('cascade');
             $table->timestamps();
         });
     }

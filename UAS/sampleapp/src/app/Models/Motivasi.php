@@ -12,5 +12,5 @@ class Motivasi extends Model
     protected $fillable = [
         'motivasi',
         'tanggal',
-    ]
+    ];
 }

@@ -15,4 +15,13 @@ class Komentar extends Model
         'komentar',
         'tanggal_komentar',
     ];
+    public function pengguna()
+    {
+        return $this->belongsTo(Pengguna::class);
+    }
+
+    public function materi()
+    {
+        return $this->belongsTo(Materi::class);
+    }
 }
