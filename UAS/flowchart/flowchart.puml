@@ -1,0 +1,18 @@
+@startuml
+
+start
+:Pengguna Mendaftar;
+:Verifikasi Akun;
+if (Verifikasi Berhasil?) then (Ya)
+  :Masuk ke Platform;
+  :Memilih Modul Cyber Security;
+  :Mempelajari Materi;
+  :Mengikuti Simulasi/Ujian;
+  :Mendapatkan Skor & Umpan Balik;
+  :Berdiskusi di Forum;
+else (Tidak)
+  :Tampilkan Notifikasi Kesalahan;
+endif
+stop
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+' Use Case Diagram
+actor "Pengguna" as User
+actor "Admin" as Admin
+
+rectangle "Sistem Pembelajaran Cyber Security" {
+  User -- (Mendaftar)
+  User -- (Masuk ke Platform)
+  User -- (Mengakses Modul Pembelajaran)
+  User -- (Mengikuti Simulasi/Ujian)
+  User -- (Mendapatkan Skor & Umpan Balik)
+  User -- (Berdiskusi di Forum)
+  Admin -- (Mengelola Konten Pembelajaran)
+}
+
+@enduml
