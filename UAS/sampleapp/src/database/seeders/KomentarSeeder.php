@@ -27,9 +27,9 @@ class KomentarSeeder extends Seeder
                 'materi_id' => $materi->id,
             ],
         ];
-        
+
         foreach ($komentars as $komentar) {
-            Materi::Create($komentar);
+            Komentar::Create($komentar);
         }
     }
 }
