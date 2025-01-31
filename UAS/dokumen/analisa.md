@@ -68,7 +68,7 @@ Analisis GAP akan mengidentifikasi kesenjangan antara kondisi saat ini (individu
 
 #### Hubungan antar entitas:
 
-- Pengguna dapat mengakses berbagai modul cyber security.
+- Pengguna dapat mengakses berbagai materi cyber security.
 - Setiap materi dapat memiliki komentar dari pengguna.
 - Setiap materi diunggah oleh satu pengguna.
 
